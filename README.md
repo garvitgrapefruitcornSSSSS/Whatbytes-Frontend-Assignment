@@ -2,7 +2,7 @@
 
 An e-commerce storefront built with **Next.js (App Router)**, **TypeScript** and **Tailwind CSS**: a product listing with filters, product detail pages and a persistent cart.
 
-**Live demo:** https://YOUR-PROJECT.vercel.app <!-- replace with your Vercel URL -->
+Live demo: https://whatbytesfrontend.vercel.app/
 
 **Repository:** https://github.com/garvitgrapefruitcornSSSSS/Whatbytes-Frontend-Assignment
 
