@@ -181,7 +181,7 @@ export const products: Product[] = [
     featured: true,
     photo: "1511707171634-5f897ff02aa9",
     description:
-      "Lorem ipsum dolor amet, consectetur euisagend. A 6.5\" OLED display, all-day battery and a triple-lens camera system.",
+      "Lorem ipsum dolor amet, consectetur euisagend.",
     reviews: [
       { id: 1, author: "Ishaan K.", rating: 5, comment: "Blazing fast and the screen is gorgeous.", date: "2026-09-25" },
       { id: 2, author: "Tanvi S.", rating: 4, comment: "Camera is great in low light.", date: "2026-09-10" },

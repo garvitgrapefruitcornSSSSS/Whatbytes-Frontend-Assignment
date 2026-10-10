@@ -1,7 +1,9 @@
+import ProductListing from "@/components/products/ProductListing";
+
 export default function Home() {
   return (
-    <main className="flex-1 px-6 py-8">
-      <h1 className="text-3xl font-bold text-brand-900">Product Listing</h1>
+    <main className="mx-auto w-full max-w-7xl flex-1 px-4 py-6 sm:px-8 sm:py-7">
+      <ProductListing />
     </main>
   );
 }
