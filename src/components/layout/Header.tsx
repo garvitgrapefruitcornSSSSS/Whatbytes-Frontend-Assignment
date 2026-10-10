@@ -1,6 +1,6 @@
-import { ShoppingCart } from "lucide-react";
 import Link from "next/link";
 import { Suspense } from "react";
+import CartButton from "./CartButton";
 import SearchBar, { SearchBarFallback } from "./SearchBar";
 
 export default function Header() {
@@ -21,14 +21,7 @@ export default function Header() {
         </div>
 
         <div className="flex shrink-0 items-center gap-3">
-          <Link
-            href="/cart"
-            aria-label="Cart"
-            className="relative flex h-10 items-center gap-2 rounded-lg bg-brand-900 px-3 text-sm font-semibold transition hover:bg-navy sm:px-5"
-          >
-            <ShoppingCart className="size-[18px]" strokeWidth={2.2} />
-            <span className="hidden sm:inline">Cart</span>
-          </Link>
+          <CartButton />
 
           <button
             type="button"
