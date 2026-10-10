@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-inter);
+  /* Palette sampled from the design */
+  --color-brand-50: #eef4fd;
+  --color-brand-500: #1a63c9;
+  --color-brand-600: #0d55b8;
+  --color-brand-700: #0a4aa6;
+  --color-brand-800: #0b3d8c;
+  --color-brand-900: #082c6c;
+  --color-navy: #0a1f44;
+  --color-page: #f5f8fd;
+}
+
+body {
+  background: var(--color-page);
+  color: var(--color-navy);
+}
